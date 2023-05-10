@@ -27,11 +27,12 @@ let slide_urls = {
     "games": "./images/game-engine-logo.jpg",
     "python": "./images/python-logo.jpg",
     "react": "./images/react-logo.jpg",
+    "unity": "./images/unity-3d.png",
     "fam": "./images/the-fam.jpg"
 }
 
 // array to hold order
-slide_order = ["about", "python", "react", "games", "eth", "fam"];
+slide_order = ["about", "python", "react", "games", "eth", "unity", "fam"];
 
 // function for next slide etc
 const forward_click = (arr) => {
